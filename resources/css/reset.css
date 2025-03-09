@@ -1,0 +1,41 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Reset default button styles */
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Ensure images don’t exceed their container */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Default font smoothing */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove input styling */
+input, textarea, select, button {
+    font: inherit;
+}

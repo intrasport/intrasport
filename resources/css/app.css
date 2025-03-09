@@ -1,0 +1,19 @@
+@import 'reset.css';
+@import 'tokens/index.css';
+
+/* Atomic Design Components */
+@import 'components/atoms/button.css';
+@import 'components/molecules/card.css';
+@import 'components/organisms/header.css';
+@import 'components/organisms/card-grid.css';
+
+body {
+    font-family: var(--font-primary), monospace;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
